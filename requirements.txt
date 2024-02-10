@@ -1,0 +1,14 @@
+to be done in the terminal:
+
+    pip install opencv-python (for eye detection)
+    pip install imutils (to get the eye landmarks :rotation, resizing) 
+    pip install scipy (to calculate the distance between eye landmarks)
+    pip install cmake (to be installed before installing dlib)
+    pip install dlib
+    pip install pygame (to play alarm sound)
+
+
+Downloads:
+
+    music.wav (for the alarm sound to be played)
+    shape_predictor (to find the landmarks for the different features of face)

@@ -10,7 +10,7 @@ This Python script utilizes facial landmarks detection to detect signs of drowsi
 - dlib
 - scipy
 - pygame
-- twilio
+- Twilio
 
 ## Usage
 
@@ -30,4 +30,15 @@ Configure Twilio credentials and emergency number in the script before running.
 ## License
 
 MIT License
+
+
+
+![IMG-20240604-WA0006](https://github.com/VanshitaKhera/Drowsiness-Detection/assets/154512400/98ebe91c-9d57-412a-a415-b4b1f0885de0)
+
+![IMG-20240604-WA0007](https://github.com/VanshitaKhera/Drowsiness-Detection/assets/154512400/4063e8db-6b19-47a1-939f-0ee59999a68e)
+
+
+![IMG-20240604-WA0008](https://github.com/VanshitaKhera/Drowsiness-Detection/assets/154512400/57142687-cef2-4177-84f2-25326a9091de)
+
+![WhatsApp Image 2024-06-04 at 14 19 40_46a7017d](https://github.com/VanshitaKhera/Drowsiness-Detection/assets/154512400/79342fb9-f721-4016-a9c6-0f6b1afefa2a)
 

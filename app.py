@@ -16,15 +16,15 @@ mixer.init()
 mixer.music.load("music.wav")
 
 # Twilio Account SID and Auth Token
-account_sid = "AC483ec5e771443b7879984483c75237f4"
-auth_token = "a8758997c8a5d22c231bfea41b267d99"
+account_sid = "*****"
+auth_token = "*****"
 client = Client(account_sid, auth_token)
 
 # Function to send emergency message using Twilio
 def send_emergency_message(emergency_number):
     message = client.messages.create(
         to=emergency_number,
-        from_="+16592663439",
+        from_="+1659*******",
         body="Emergency! The user is showing signs of drowsiness for an extended period. Please check on them."
     )
     print(f"Emergency message sent to {emergency_number} - Message SID: {message.sid}")
@@ -55,7 +55,7 @@ predict = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 cap = cv2.VideoCapture(0)
 
 # Emergency number input from the user
-emergency_number = "+919499174939"
+emergency_number = "+91********"
 
 # Flag to indicate when the camera is in use
 camera_in_use = True

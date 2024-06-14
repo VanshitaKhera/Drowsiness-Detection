@@ -2,6 +2,8 @@
 
 This Python script utilizes facial landmarks detection to detect signs of drowsiness through webcam feed analysis. When drowsiness is detected, an alarm sounds and an emergency alert is sent via Twilio. 
 
+The project aims to enhance road safety by reducing accidents caused by driver fatigue. The solution uses computer vision and machine learning to monitor driver behavior through a camera, detecting signs of drowsiness such as eyelid movement, yawning, and head position. When drowsiness is detected, the system sends real-time alerts to prompt the driver to take a break and also sends an emergency message to the number initially entered by the driver. This technology aims to significantly lower the number of fatigue-related accidents, potentially saving lives and reducing injuries on the road.
+
 ## Dependencies
 
 - Flask
